@@ -69,13 +69,32 @@ OUTPUT
 //9
 //9
 
-4.
+4. SoloLearn
 
+public void GetValues(out int x, out int y)
+{
+  x = 7;
+  y = 11;
+}
+public void Main(string[] args)
+{
+  int a, b;
+  GetValues(out a, out b);
+}
 
+OUTPUT
+a = 7
+b = 11
 
-5.
+5. SoloLearn (x!)
 
+public void Main(string[] args)
+{
+  print(Fact(10));
+}
 
+OUTPUT
+3,628,800
 
 6.
 
